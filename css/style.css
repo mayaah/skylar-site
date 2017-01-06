@@ -17,7 +17,7 @@ body {
   -moz-transition: all 0.35s;
   transition: all 0.35s;
   font-family: 'Nunito', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 1px;
 }
 .navbar-default .navbar-header .navbar-brand {
@@ -142,7 +142,7 @@ header .header-content .header-content-inner h1 {
 }
 header .about-content .about-content-inner h3 {
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 2em;
   color: #47C0D7;
 }
@@ -159,6 +159,7 @@ header .happy-image-container {
 header .feature-text {
   margin-top: 40px;
   margin-bottom: 40px;
+  font-weight: 400px;
 }
 
 header .feature-img {
@@ -203,7 +204,7 @@ blockquote cite:before {
 header .features {
     padding: 100px 0px;
     color: #363939;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 @media (min-width: 768px) {
@@ -237,7 +238,7 @@ header .features {
   }
   header .about-content .about-content-inner h3 {
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
   }
   header .device-container {
     max-width: none;
@@ -248,7 +249,7 @@ header .features {
   header .features {
     padding: 100px 0px;
     color: #363939;
-    font-weight: 300;
+    font-weight: 400;
   }
 
   header .about {
@@ -273,7 +274,7 @@ header .features {
   }
   header .about-content .about-content-inner h3 {
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 400;
     line-height: 2em;
   }
 
@@ -398,17 +399,17 @@ td:first-child {
 .advantage-text {
   padding: 50px 0px;
   color: white;
-  font-weight: 300;
+  font-weight: 400;
   text-align: justify;
   line-height: 2em;
 }
 
 .advantage-text h3 {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .advantage-text p {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 768px) {
@@ -460,7 +461,7 @@ td:first-child {
 }
 
 a.learn-button {
-  font-weight: 300;
+  font-weight: 500;
   border: 1px solid white;
   padding: 15px 30px;
   width: 300px;
@@ -496,14 +497,14 @@ a.learn-button {
 
 .timeline {
   padding: 100px auto 0px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .timeline h1 {
   margin-top: 150px;
   color: white;
   font-size: 50px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .timeline {
@@ -560,7 +561,7 @@ a.learn-button {
   text-decoration: none;
   color: #3e4040;
   font-size: 14px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .contact a {
