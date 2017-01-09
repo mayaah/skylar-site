@@ -114,7 +114,7 @@ header {
 }
 header .header-content {
   text-align: center;
-  padding: 150px 0 0px;
+  padding: 100px 0 0px;
   position: relative;
 }
 header .header-content .header-content-inner {
@@ -136,7 +136,7 @@ header .about-content .about-content-inner {
 }
 header .header-content .header-content-inner h1 {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   font-size: 30px;
   font-weight: 300;
 }
@@ -202,9 +202,14 @@ blockquote cite:before {
 }
 
 header .features {
-    padding: 100px 0px;
+    padding: 15px 0px 10px;
     color: #363939;
     font-weight: 400;
+}
+
+header .landing-img {
+    margin-top: -50px;
+    max-width: 200px;
 }
 
 @media (min-width: 768px) {
@@ -232,12 +237,14 @@ header .features {
     transform: translateY(-50%);
   }
   header .header-content .header-content-inner h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
     font-size: 35px;
     font-weight: 300;
     color: #363939;
   }
   header .about-content .about-content-inner h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
   }
   header .device-container {
@@ -247,7 +254,7 @@ header .features {
   }
 
   header .features {
-    padding: 100px 0px;
+    padding: 75px 0px 40px;
     color: #363939;
     font-weight: 400;
   }
@@ -265,6 +272,16 @@ header .features {
     max-width: 300px;
   }
 
+  header .landing-img {
+    margin-top: 0px;
+    max-width: 250px;
+  }
+
+  header .about-content {
+  padding: 200px 0 0px;
+  position: relative;
+}
+
 }
 @media (min-width: 992px) {
   header .header-content .header-content-inner h1 {
@@ -273,13 +290,19 @@ header .features {
     line-height: 1.5em;
   }
   header .about-content .about-content-inner h3 {
-    font-size: 16px;
+    text-align: justify;
+    max-width: none;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
     font-weight: 400;
     line-height: 2em;
   }
 
   header .about-content .about-content-inner {
     max-width: 450px;
+
   }
 
   header .features {
@@ -292,6 +315,10 @@ header .features {
 
   header .happy-image-container {
     max-width: 300px;
+  }
+
+  header .landing-img {
+    max-width: 350px;
   }
 
 }
@@ -320,7 +347,7 @@ th {
 td,
 th {
   text-align: center;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 400;
   padding: 20px 15px;
   text-align: left;
@@ -363,7 +390,7 @@ td:first-child {
   border-style: hidden;
   }
   .check {
-    color: #99EAA8;
+    color: #4777D7;
     font-size: 14px;
   }
   .dingbat {
@@ -430,7 +457,7 @@ td:first-child {
   background: -webkit-linear-gradient(top, #e6f9ff 0%,#47c0d7 47%,#47c0d7 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #e6f9ff 0%,#e6f9ff 47%,#47c0d7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47c0d7', endColorstr='#e6f9ff',GradientType=0 ); /* IE6-9 */
-  padding: 100px 0px 50px;
+  padding: 40px 0px 50px;
 }
 
 .facts ul a{
@@ -474,6 +501,11 @@ a.learn-button {
 
 
 @media screen and (min-width: 768px) {
+
+  .facts {
+    padding: 100px 0px 50px;
+  } 
+
   .facts ul {
     margin-top: 70px;
   }
@@ -502,6 +534,7 @@ a.learn-button {
 
 .timeline h1 {
   margin-top: 150px;
+  margin-bottom: 50px;
   color: white;
   font-size: 50px;
   font-weight: 400;
