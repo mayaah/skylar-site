@@ -637,7 +637,7 @@ a.learn-button {
 }
 
 .contact {
-  margin: 75px 0;
+  margin: 75px 0 25px;
 
 }
 
@@ -659,7 +659,7 @@ a.learn-button {
 #copyright {
   font-size: 14px;
   font-weight: 300;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 body.modal-open .background-container{
