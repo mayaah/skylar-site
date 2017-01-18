@@ -150,8 +150,9 @@ header .about-content .about-content-inner h3 {
 
 header .device-container {
   max-width: 300px;
-  margin: 100px auto;
-}
+  height: auto;
+/*  margin: 100px auto;
+*/}
 
 header .happy-image-container {
   padding-top: 50px;
@@ -211,8 +212,9 @@ header .features {
 }
 
 header .landing-img {
-    margin-top: -50px;
-    max-width: 200px;
+      padding-top: 30px;
+/*    margin-top: -50px;
+*/    max-width: 200px;
 }
 
 @media (min-width: 768px) {
@@ -254,6 +256,8 @@ header .landing-img {
  /*   max-width: none;
     max-height: calc(0vh);
     margin: 100px auto 0;*/
+    padding: 0;
+    height: 100vh;
   }
 
   header .features {
@@ -701,7 +705,6 @@ and (max-width : 375px) {
     width: 100%;
   }
 }
-
 
 
 
