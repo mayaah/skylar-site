@@ -338,6 +338,7 @@ header .landing-img {
 
   header .landing-img {
     max-width: 350px;
+    padding-left: 50px;
   }
 
   blockquote {
@@ -492,14 +493,15 @@ table td:nth-child(2) {
   background: linear-gradient(to bottom, #e6f9ff 0%,#e6f9ff 47%,#47c0d7 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#47c0d7', endColorstr='#e6f9ff',GradientType=0 ); /* IE6-9 */
   padding: 40px 0px 50px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .facts ul a{
   color: #3e4040;
   font-weight: 300;
   text-decoration: none;
-  line-height: 2.5em;
+  line-height: 2em;
+  font-size: 16px;
 
 }
 
@@ -511,7 +513,7 @@ table td:nth-child(2) {
   margin-top: 70px;
   font-size:20px;
   font-weight: 300;
-  color: #47c0d7;
+  color: #3e4040;
 }
 
 .creation p {
@@ -524,13 +526,13 @@ table td:nth-child(2) {
 
 a.learn-button {
   font-weight: 500;
-  border: 1px solid white;
+  border: 1px solid #3e4040;
   padding: 15px 30px;
   width: 300px;
-  color: white;
+  color: #3e4040;
   font-size: 15px;
   text-decoration: none;
-  color: white;
+  color:#3e4040;
   margin: auto 100px;
 }
 
