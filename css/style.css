@@ -358,7 +358,7 @@ header .landing-img {
   header .header-content {
     text-align: center;
     padding: 0;
-    height: 800px;
+    height: 700px;
   }
 
   header .device-container {
@@ -366,7 +366,7 @@ header .landing-img {
     max-height: calc(0vh);
     margin: 100px auto 0;*/
     padding: 0;
-    height: 800px;
+    height: 700px;
   }
 
 
