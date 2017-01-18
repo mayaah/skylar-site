@@ -251,9 +251,9 @@ header .landing-img {
     font-weight: 400;
   }
   header .device-container {
-    max-width: none;
+ /*   max-width: none;
     max-height: calc(0vh);
-    margin: 100px auto 0;
+    margin: 100px auto 0;*/
   }
 
   header .features {
@@ -638,7 +638,7 @@ a.learn-button {
 
 .contact {
   margin: 75px 0 25px;
-
+ 
 }
 
 .contact img {
