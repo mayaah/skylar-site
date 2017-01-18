@@ -354,6 +354,24 @@ header .landing-img {
 
 }
 
+@media (min-width : 1824px) {
+  header .header-content {
+    text-align: center;
+    padding: 0;
+    height: 900px;
+  }
+
+  header .device-container {
+ /*   max-width: none;
+    max-height: calc(0vh);
+    margin: 100px auto 0;*/
+    padding: 0;
+    height: 900px;
+  }
+
+
+}
+
 .advantages {
   background: #47c0d7;
   padding-bottom: 50px;
