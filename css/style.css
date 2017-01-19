@@ -217,6 +217,10 @@ header .landing-img {
 */    max-width: 200px;
 }
 
+.devices-text {
+  padding: 0px 20px;
+}
+
 @media (min-width: 768px) {
   header {
     min-height: 100%;
@@ -726,6 +730,7 @@ and (max-width : 375px) {
   }
 }
 
+    
 
 
 
