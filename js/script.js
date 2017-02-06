@@ -34,3 +34,11 @@
     function accessibleAlert() {
         alert("Accessible version coming soon!");
     }
+
+// Job description toggle
+$('.title1').click(function(){
+        $(".description1").slideToggle();
+    });
+$('.title2').click(function(){
+        $(".description2").slideToggle();
+    });

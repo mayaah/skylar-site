@@ -10,6 +10,10 @@ body {
   background: #e6f9ff;
 }
 
+.jobs a{
+  text-decoration: none;
+}
+
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
