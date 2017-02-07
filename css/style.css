@@ -14,6 +14,10 @@ body {
   text-decoration: none;
 }
 
+.apply {
+  text-align: right;
+}
+
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
@@ -556,7 +560,7 @@ a.learn-button {
   padding: 15px 30px;
   width: 300px;
   color: #3e4040;
-  font-size: 15px;
+  font-size: 20px;
   text-decoration: none;
   color:#3e4040;
   margin: auto 100px;
@@ -724,6 +728,7 @@ and (min-width : 376px) and (max-width: 800px){
 
   .creation p {
     width: 600px;
+  }
 }
 
 @media only screen
@@ -731,6 +736,10 @@ and (max-width : 375px) {
    .col-sml-6 {
     float: none;
     width: 100%;
+  }
+
+  .apply {
+    text-align: left;
   }
 }
 
